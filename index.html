@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Font awesome library -->
+        <script src="https://kit.fontawesome.com/f589ac33f3.js" crossorigin="anonymous"></script>
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+        <!-- title -->
+        <title>THE MOVIE DB</title>
+
+        <!-- favicon -->
+        <link rel="icon" type="image/png" href="./images/favicon.png" />
+
+        <!-- custom css -->
+        <link rel="stylesheet" href="./css/index.css">
+
+    </head>
+
+    <body>
+
+        <!-- Bootstrap header -->
+        <header>
+            <div class="bg-dark collapse" id="navbarHeader" >
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-7 col-md-7 py-4">
+                            <h4 class="text-white">About</h4>
+                            <p class="text-white">
+                                The Movie DB is an online query tool for information related to films, television series, home videos, video games, and streaming content online - including cast, production crew and personal biographies, plot summaries, trivia, ratings, and fan and critical reviews
+                            </p>
+                        </div>
+                        <div class="col-sm-4 offset-md-1 py-4">
+                            <h4 class="text-white">Navigation</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="./index.html" class="text-white">Home</a></li>
+                                <li><a href="./favMovies.html" class="text-white">Your Favourites</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar navbar-dark bg-dark shadow-sm">
+                <div class="container">
+                    <a href="./index.html" class="navbar-brand d-flex align-items-center">
+                        <i class="fa-solid fa-clapperboard"></i>&nbsp;
+                        <strong>The Movie DB</strong>
+                    </a> 
+                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Bootstrap main template -->
+        <main>
+            <div class="container text-center py-3">
+                <div id="search_movies">
+                    <form name="myform" class="form">
+                        <label for="exampleInputPassword1" class="form-label">Query your films, tv drama and web series here.</label>
+                        <br>
+                        <input type="text" placeholder="Search movie name ..." name="searchString" class="btn border border-danger" >
+                        <input type="submit" id="form_submit" class="btn btn-primary">
+                    </form>
+                </div>
+                <div>
+                    <!-- Unordered list to contain movies -->
+                    <ul id="movies_list" class="py-2 list-unstyled">
+                    </ul>
+                </div>
+            </div>
+        </main>
+
+        <!-- Custom Javascript -->
+        <script src="./javascript/main_script.js">
+        </script>
+
+        <!-- Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    </body>
+</html>
