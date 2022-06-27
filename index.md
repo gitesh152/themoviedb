@@ -1,37 +1,48 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/gitesh152/themoviedb/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+# The Movie DB
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Simple query app for the fans's reference using html,css and js
 
-### Markdown
+## Table of Contents
+* Generalinfo
+* Technology
+* API reference
+* Setup
+* Functionality
+* status
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Introduction    
+    This project serves as an Ultimate reference guide for all audience 
+    and fans of cinema, it serves querying a vast gallery of movies, television series and web series from all around the world.
+    The main incentive for this project is to master Vanilla javascript,
+    a part of my online course in coding ninjas.
 
-```markdown
-Syntax highlighted code block
+## Technology
+    1. Bootstrap 5.2v
+    2. html
+    3. css
+    4. Vanilla javascript
 
-# Header 1
-## Header 2
-### Header 3
+## API reference
+    https://www.omdbapi.com
+    API Method used (Search content by name)
+    https://www.omdbapi.com/?t=${string}&apikey=d91a9827
 
-- Bulleted
-- List
+## Setup
+    The app has all the required files and libraries in it in 
+    the form of links.
+    $ cd THE MOVIE DB
+    Open index.html in your browser.opening any other file in
+    browser will not work because some javscript files is used to store
+    data in the browser localStorage which is required by other html files
 
-1. Numbered
-2. List
+## Functionality
+    * Search content from API.
+    * Storing as favourite content.
+    * Content Detail page with Poster, imdb rating, cast, genre and language etc.
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/gitesh152/themoviedb/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Status
+    This project is completely developed and has functionality, however
+    some improvements can be made, some are the users should be allowed to 
+    search via category of the content and the search box suggestions can be 
+    improved
