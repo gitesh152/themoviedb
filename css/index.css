@@ -1,0 +1,13 @@
+.view-btn{
+    border-radius: 3px;
+    padding: 5px;
+    color: darkslategrey;
+    text-decoration: none;
+}
+.view-btn:hover{
+    background-color:coral;
+    color: white;
+}
+.fav-btn:hover{
+    background-color: blueviolet;
+}
